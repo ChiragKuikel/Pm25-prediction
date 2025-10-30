@@ -14,6 +14,7 @@ Extracted only PM2.5 values for analysis.
 Observed erroneous sensor readings (<0 or >500) and replaced them using linear interpolation.
 
 Generated daily, monthly, and seasonal plots to understand pollution patterns.
+Note: Y axis = PM25 values
 ![Seasonal Trends](Images/Seasonal_trend.png)
 ![Daily Trends](Images/Hourly_trend.png)
 ![Monthly Trends](Images/Monthly_trend.png)
@@ -42,6 +43,7 @@ Trend
 Seasonality
 
 Residuals
+
 ![STL Decomposition](Images/STL_decomposition.png)
 
 ### 4.SARIMAX Forecasting
